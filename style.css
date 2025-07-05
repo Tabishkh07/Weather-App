@@ -5,22 +5,28 @@ body{
 .card{
     background-color: whitesmoke;
     color: black;
-    
+    background-image: url("Assests/bg-img.png");
+    background-size: cover;
 }
 
-.card:hover{
-    border: 4px solid #1775a4;
-}
-
-.hamburger{
+.hamburger {
     font-size: 2rem;
-    transition: transform 0.2s ease;
+    transition: all 0.3s ease;
     width: 5vh;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    border-radius: 40%;
+    cursor: pointer;
 }
 
-.hamburger:hover{
-    width: 7vh;
-    box-shadow:2px 2px 5px 2px black;
+.hamburger:hover {
+    transform: scale(1.2);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
 .temp{
