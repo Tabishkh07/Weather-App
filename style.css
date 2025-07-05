@@ -1,0 +1,34 @@
+body{
+    background-color: lightblue;
+}
+
+.card{
+    background-color: whitesmoke;
+    color: black;
+    
+}
+
+.card:hover{
+    border: 4px solid #1775a4;
+}
+
+.hamburger{
+    font-size: 2rem;
+    transition: transform 0.2s ease;
+    width: 5vh;
+}
+
+.hamburger:hover{
+    width: 7vh;
+    box-shadow:2px 2px 5px 2px black;
+}
+
+.temp{
+    text-align: center;
+    margin-top: 1.5rem;    
+    font-size: 55px;
+}
+
+.temp2{
+    text-align: center;
+}
